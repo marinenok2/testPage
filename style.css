@@ -1,32 +1,33 @@
-/* first version */
-.rehabilitation__block-text {
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  padding: 84px 0 136px 0;
-  margin-bottom: 50px; }
-
-.rehabilitation__container {
-  max-width: 1180px;
-  margin: 10px auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
-
-.rehabilitation__image {
-  position: relative; }
-
-.rehabilitation__img {
-  width: 50vw;
-  height: 100%;
-  position: absolute;
-  z-index: 2; }
-
-.rehabilitation__text-p {
-  margin-bottom: 32px;
-  font-size: 16px; }
-
-.rehabilitation__title {
-  font-size: 38px;
-  margin-bottom: 52px; }
-
-.rehabilitation__wrapper {
-  font-size: 40px; }
+.rehabilitation {
+  position: relative;
+  overflow: hidden; }
+  .rehabilitation__block-text {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 84px 0 136px 0;
+    margin-bottom: 50px; }
+  .rehabilitation__container {
+    max-width: 1180px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .rehabilitation__image {
+    position: relative; }
+  .rehabilitation__img {
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    object-fit: cover; }
+  .rehabilitation__text-p {
+    margin-bottom: 32px;
+    font-size: 16px; }
+  .rehabilitation__title {
+    font-size: 38px;
+    margin-bottom: 52px; }
+  .rehabilitation__wrapper {
+    font-size: 40px; }
